@@ -1,0 +1,25 @@
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (1, 'levis', 1200, 'white', 'shirt', 38, 'sku1');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (2, 'levis', 1500, 'black', 'jeans', 32, 'sku2');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (3, 'lp', 1200, 'red', 't-shirt', 38, 'sku3');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (4, 'lp', 1200, 'black', 'belt', 32, 'sku4');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (5, 'john players', 2500, 'blue', 'jeans', 38, 'sku5');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (6, 'vans', 2500, 'grey', 'shoes', 8, 'sku6');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (7, 'vans', 3000, 'black', 'slip-ons', 38, 'sku7');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (8, 'levis', 2200, 'red', 'polo-shirt', 38, 'sku8');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (9, 'arrow', 3500, 'black', 'blazer', 38, 'sku7');
+INSERT INTO PRODUCT (productId, productName, price, color, brand, size, sku) VALUES (10, 'blackberry', 4000, 'white', 'shirt', 38, 'sku10');
+
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (20, 1, 30, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (21, 2, 50, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (22, 5, 10, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (23, 3, 30, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (24, 3, 30, 'xyz');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (25, 4, 30, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (26, 6, 30, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (27, 7, 30, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (28, 8, 50, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (29, 9, 10, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (30, 10, 25, 'abc');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (31, 5, 30, 'xyz');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (32, 4, 30, 'xyz');
+INSERT INTO SELLER (id, productId, quantity, sellerName) VALUES (33, 10, 30, 'xyz');
